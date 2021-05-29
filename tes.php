@@ -239,7 +239,7 @@ while(true){
 	$link1 = explode('Link: ', $res);
 	$link2 = explode(' Password:', $link1[1]);
 if($link2 !== $link){
-	echo "$putih Script Stoped!!";
+	echo "$putih Script Stoped!!\n";
 	exit;
 }
 	
