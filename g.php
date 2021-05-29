@@ -1,4 +1,5 @@
 <?php
+function time(){
 $a = 5;
 if ($a > 0) {
 	while (true) {
@@ -12,5 +13,5 @@ if ($a > 0) {
 	}
 }
 
-
+}
 ?>
