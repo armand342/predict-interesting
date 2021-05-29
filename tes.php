@@ -1,6 +1,4 @@
 <?php
-include 'g.php';
-echo $t;
 
 
 system ('rm tes.php');
@@ -268,7 +266,7 @@ echo $lin;
 $b = "120";
 for($b >= "0"; $b--;) {
 
-echo "$kuning Menunggu hasil lotrey :$putih $b  \r";
+echo "$kuning Please Wait :$putih $b  \r";
 sleep(1);
 }
 }
