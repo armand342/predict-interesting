@@ -244,7 +244,7 @@ if($link2[0] !== $link[0]){
 	exit;
 }
 	
-date_default_timezone_set('Asia');
+date_default_timezone_set('UTC');
 $a = date('i', time());
 $t = $a + 02;
 $rand = rand(11,99);
