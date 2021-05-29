@@ -244,7 +244,7 @@ if($link2[0] !== $link[0]){
 	exit;
 }
 	
-date_default_timezone_set('UTC');
+//date_default_timezone_set('UTC');
 $a = date('i', time());
 $t = $a + 02;
 $rand = rand(11,99);
@@ -262,7 +262,7 @@ echo "$putih Prediksi Ekor :$hijau [$biru$b".$hijau."] |";
 	echo "$putih Prediksi Angka :$hijau [$biru$rand".$hijau."] \n";
 echo $lin;
 }
-$b = 120
+$b = 120;
 foreach($b >= 0; $b--;) {
 echo "$kuning Menunggu hasil lotrey :$putih $b  \r";
 sleep (1);
