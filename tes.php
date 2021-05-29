@@ -266,10 +266,10 @@ echo "$putih Prediksi Ekor :$hijau [$biru$b".$hijau."] |";
 echo $lin;
 }
 //$b = "120";
-foreach($b = "120", $b >= "0", $b--) {
-sleep(1);
-echo "$kuning Menunggu hasil lotrey :$putih $b  \r";
+for($b = "120"; $b >= "0"; $b--;) {
 
+echo "$kuning Menunggu hasil lotrey :$putih $b  \r";
+sleep(1);
 }
 }
 }
