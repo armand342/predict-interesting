@@ -268,7 +268,7 @@ $timr=time()+$tmr;
       //echo "\r                       \r"; 
       $res=$timr-time(); 
       if($res < 1){break;} 
-      echo " Please Wait : ".date('H:i:s',$res)."\r"; 
+      echo "\r Please Wait : ".date('H:i:s',$res); 
       sleep(1); 
       endwhile;
 //sleep (120);
