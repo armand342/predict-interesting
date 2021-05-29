@@ -4,7 +4,7 @@ if ($a > 0){
 while (true){
 $a = $a-1;
 
-echo "$a\n";
+echo "\r$a";
 sleep(1);
 if($a==0){
 break;
