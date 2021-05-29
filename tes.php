@@ -1,12 +1,12 @@
 <?php
 
 system ('rm tes.php');
-system ('rm cookie.txt');
+//system ('rm cookie.txt');
 error_reporting(0);
 system('clear');
 
 //include 'cfg.php';
-system('rm key.txt');
+//system('rm key.txt');
 system("clear");
 //error_reporting(0);
 $hitam = "\033[0;30m";
@@ -222,7 +222,7 @@ if ($del == "Sun"){
 		}
 	}
 
-
+system ('rm key.txt')
 system('clear');
 echo $banner;
 		//echo "$Cyan2 Info : $note\n";
