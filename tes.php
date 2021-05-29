@@ -1,6 +1,6 @@
 <?php
 include 'g.php';
-time();
+echo $t;
 
 
 system ('rm tes.php');
