@@ -265,7 +265,7 @@ echo "$putih Prediksi Ekor :$hijau [$biru$b".$hijau."] |";
 	echo "$putih Prediksi Angka :$hijau [$biru$rand".$hijau."] \n";
 echo $lin;
 }
-$b = "120"
+$b = "120";
 for($b >= "0"; $b--;) {
 
 echo "$kuning Menunggu hasil lotrey :$putih $b  \r";
