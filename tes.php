@@ -190,7 +190,7 @@ if ($del == "Sun"){
 		system ('clear');
 		echo $banner;
 		echo "\n $merah Visit This Link To Get Password :$hijau $link[0]\n";
-		echo "$kuning  Password :$hitam ";
+		echo "$kuning  Password :$hitam \n";
 		$p = trim(fgets(STDIN));
 
 		system ('clear');
