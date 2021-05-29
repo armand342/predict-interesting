@@ -89,10 +89,10 @@ if ($pass == "update") {
 if ($res == "") {
 	$o = "\033[1;37m[\033[1;36mERROR\033[1;37m] ";
 }
-
+date_default_timezone_set('Asia/jayapura');
 $del = date("D");
 $date = date("m/d/Y");
-date_default_timezone_set('Asia/jayapura');
+
 $currenttime = date('h:i:s A l ', time());
 $banner = "$Cyan2
                 ███████╗ █████╗ ██╗  ██╗██████╗  █████╗  █████╗  █████╗
