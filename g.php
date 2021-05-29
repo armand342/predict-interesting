@@ -1,9 +1,9 @@
 <?php
 $a = 5;
-foreach($a = 5 $a > 0 $a--){
-sleep(1);
+if ($a >= 0){
+$a = $a-1;
 echo "$a";
-//sleep(1);
+sleep(1);
 }
 
 
