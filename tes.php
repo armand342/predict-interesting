@@ -264,13 +264,13 @@ echo $lin;
 }
 $tmr = 120;
 $timr=time()+$tmr; 
-      while(true): 
+      while(true){
       echo "\r                       \r"; 
       $res=$timr-time(); 
       if($res < 1){break;} 
       echo " Please Wait : ".date('H:i:s',$res)."\r"; 
       sleep(1); 
-      endwhile;
+      }
 //sleep (120);
 }
 }
