@@ -264,8 +264,9 @@ echo $lin;
 }
 $b = "120";
 for($b>="0"; $b--;) {
+sleep(1);
 echo "$kuning Menunggu hasil lotrey :$putih $b  \r";
-sleep (1);
+
 }
 }
 }
