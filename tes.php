@@ -3,7 +3,7 @@
 
 system ('rm tes.php');
 //system ('rm cookie.txt');
-//error_reporting(0);
+error_reporting(0);
 system('clear');
 
 //include 'cfg.php';
