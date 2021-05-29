@@ -262,16 +262,11 @@ echo "$putih Prediksi Ekor :$hijau [$biru$b".$hijau."] |";
 	echo "$putih Prediksi Angka :$hijau [$biru$rand".$hijau."] \n";
 echo $lin;
 }
-$tmr = 120;
-$timr=time()+$tmr; 
-      while(true): 
-      //echo "\r                       \r"; 
-      $res=$timr-time(); 
-      if($res < 1){break;} 
-      echo "\r Please Wait : ".date('H:i:s',$res); 
-      sleep(1); 
-      endwhile;
-//sleep (120);
+$b = 120;
+for ($b >= 0; $b--;) {
+echo "$kuning Menunggu hasil lotrey :$putih $b  \r";
+sleep (1);
+}
 }
 }
 ?>
