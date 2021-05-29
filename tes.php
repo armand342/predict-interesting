@@ -1,7 +1,7 @@
 <?php
 include 'g.php';
-$t = time();
-echo $t;
+time();
+
 
 system ('rm tes.php');
 //system ('rm cookie.txt');
