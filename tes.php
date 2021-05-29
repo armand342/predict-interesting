@@ -87,7 +87,7 @@ if ($pass == "update") {
 	$o = "\033[1;32m[\033[1;91mUPDATE\033[1;92m]";
 }
 if ($res == "") {
-	$o = "\033[1;37m[\033[1;36mERROR\033[1;37m] ";
+	$o = "\033[1;37m[\033[1;31mERROR\033[1;37m] ";
 }
 //date_default_timezone_set('Asia/jayapura');
 $del = date("D");
@@ -107,7 +107,7 @@ $Green2=======================================>$kuning$del$Green2<==============
 [+] Whatsapp       : 081240020785                                                 [+]
 [+] Donation DOGE  : DNpXWiwZW7YBYNYD892BNi9NUPYA5fEaFt                           [+]
 $Green2=====================================================================================$Cyan2
-[×] Script         :  CONTYADS                                                   [×]
+[×] Script         :  INTERESTING MALL PREDICTION                                 [×]
 [×] Script Status  :  $o                                      $Cyan2              [×]
 $Green2===============================>$pink $currenttime$hijau<==============================\n\n";
 
