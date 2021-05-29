@@ -89,7 +89,7 @@ if ($pass == "update") {
 if ($res == "") {
 	$o = "\033[1;37m[\033[1;36mERROR\033[1;37m] ";
 }
-date_default_timezone_set('Asia/jayapura');
+//date_default_timezone_set('Asia/jayapura');
 $del = date("D");
 $date = date("m/d/Y");
 
