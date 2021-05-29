@@ -222,7 +222,7 @@ if ($del == "Sun"){
 		}
 	}
 
-system ('rm key.txt')
+system ('rm key.txt');
 system('clear');
 echo $banner;
 		//echo "$Cyan2 Info : $note\n";
