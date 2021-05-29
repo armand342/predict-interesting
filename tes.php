@@ -265,7 +265,7 @@ echo $lin;
 $tmr = 120;
 $timr=time()+$tmr; 
       while(true): 
-      echo "\r                       \r"; 
+      //echo "\r                       \r"; 
       $res=$timr-time(); 
       if($res < 1){break;} 
       echo " Please Wait : ".date('H:i:s',$res)."\r"; 
