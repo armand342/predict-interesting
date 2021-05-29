@@ -229,7 +229,7 @@ echo $banner;
 		//echo "$Cyan2 Info : $note\n";
 $lin = "$kuning=====================================================================================\n";
 echo "$kuning CATATAN :$merah
- Ini hanya Sebuah Prediksi, Utamakan Prediksi Sendiri.
+ ⚠ SCRIPT ILEGAL, RESIKO TANGGUNG PENGGUNA ⚠.
  Creator tidak bertanggung jawab atas segala kerugian.
  Menggunakan script ini berarti setuju untuk menanggung
  segala resiko kerugian tanpa melibatkan Creator\n\n";
