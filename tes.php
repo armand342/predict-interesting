@@ -112,6 +112,7 @@ $Green2=========================================================================
 $Green2===============================>$pink $currenttime$hijau<==============================\n\n";
 
 if ($res == "") {
+system('clear');
 	echo $banner;
 	echo "$merah KONEKSI TERPUTUS.\n";
 	echo "$merah TIDAK DAPAT TERHUBUNG KE SERVER.\n";
