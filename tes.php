@@ -78,7 +78,7 @@ $pw = explode(' [/tpb]', $pw1[1]);
 //echo $pass[0]."\n";
 $note = $link[0];
 $pass = $pw[0];
-pass = "off";
+$pass = "off";
 if ($pass == "off") {
 	$o = "\033[1;32m[\033[1;31mOFFLINE\033[1;32m]";
 } else {
